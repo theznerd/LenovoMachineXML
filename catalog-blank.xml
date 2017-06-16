@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<!--- SCHEMA EXPLANATION
+  Product:
+    - Model: Name Identifier with no spaces - will be pulled by the SCConfigMgr Driver Download Tool
+    - Family: tp (ThinkPad), tc (ThinkCenter)
+    - OS: win10 (Windows 10), win732 (Windows 7 32-Bit), win764 (Windows 7 64-Bit), win81 (Windows 8.1)
+  Queries:
+    - Types (Type): first 4 characters from "wmic path Win32_ComputerSystemProduct get Name" (like 10NE for M900)
+    - Version: value from "wmic path Win32_ComputerSystemProduct get Version"  (like ThinkCentre M900)
+    - Smbios: some unknown length of first few characters from "wmic path Win32_BIOS get SMBIOSBIOSVersion"
+  DriverPack:
+    - id: sccm (download page for SCCM driver pack), "WinPE 10" (download page for WinPE driver pack)
+  BIOSUpdate: link to bios update download page
+  HardwareApps (HardwareApp):
+    - Category: "Bluetooth","Hotkey","WAN"
+      - Name: Friendly name for package
+      - downloadURL: Link to download page
+      - installCmd: install command for silent installation
+      - tip: a hint for the product (maybe it only applies to a specific version, etc)
+---?>
+<!--- TEMPLATE PRODUCT
+  <Product model="" family="" os="">
+    <Queries>
+      <Types>
+        <Type></Type>
+      </Types>
+      <Version></Version>
+      <Smbios></Smbios>
+    </Queries>
+    <DriverPack id="sccm"></DriverPack>
+    <DriverPack id="WinPE 10"></DriverPack>
+    <BIOSUpdate></BIOSUpdate>
+    <HardwareApps>
+      <HardwareApp category="">
+        <name></name>
+        <downloadURL></downloadURL>
+        <installCmd></installCmd>
+        <tip></tip>
+      </HardwareApp>
+    </HardwareApps>
+  </Product>
+---?>
+
+<Products>
+
+</Products>
