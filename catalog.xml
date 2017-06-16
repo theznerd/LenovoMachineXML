@@ -19,7 +19,7 @@
       - installCmd: install command for silent installation
       - tip: a hint for the product (maybe it only applies to a specific version, etc)
 --?>
-<!--- TEMPLATE PRODUCT
+<!-- TEMPLATE PRODUCT
   <Product model="" family="" os="">
     <Queries>
       <Types>
@@ -40,7 +40,7 @@
       </HardwareApp>
     </HardwareApps>
   </Product>
----?>
+--?>
 <Products>
   <Product model="M600Tiny" family="tc" os="win10">
     <Queries>
