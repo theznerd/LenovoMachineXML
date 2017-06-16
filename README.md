@@ -4,9 +4,9 @@ Replacement XML file for Lenovo driver catalog.
 User contributed via fork and pull.
 
 The Lenovo XML file is broken down into products. Each product has three attributes: Model, Family, and OS
-    - Model: Name Identifier with no spaces - will be pulled by the SCConfigMgr Driver Download Tool
-    - Family: tp (ThinkPad), tc (ThinkCenter)
-    - OS: win10 (Windows 10), win732 (Windows 7 32-Bit), win764 (Windows 7 64-Bit), win81 (Windows 8.1)
+  - Model: Name Identifier with no spaces - will be pulled by the SCConfigMgr Driver Download Tool
+  - Family: tp (ThinkPad), tc (ThinkCenter)
+  - OS: win10 (Windows 10), win732 (Windows 7 32-Bit), win764 (Windows 7 64-Bit), win81 (Windows 8.1)
 
 Below each Product element, there are four (or more) potential additional elements Query, DriverPack, HardwareApps, and BIOSUpdate. 
 
