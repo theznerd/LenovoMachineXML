@@ -41,6 +41,7 @@
     </HardwareApps>
   </Product>
 -->
+<!-- BEGIN LENOVO MASTER DATA AS OF 06.16.2017 -->
 <Products>
   <Product model="M600Tiny" family="tc" os="win10">
     <Queries>
@@ -5370,4 +5371,7 @@
       </HardwareApp>
     </HardwareApps>
   </Product>
+  <!-- END LENOVO MASTER DATA AS OF 06.16.2017 -->
+  <!-- BEGIN USER CONTRIBUTED DATA -->
+  <!-- END USER CONTRIBUTED DATA -->
 </Products>
