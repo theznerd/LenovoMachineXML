@@ -18,7 +18,7 @@
       - downloadURL: Link to download page
       - installCmd: install command for silent installation
       - tip: a hint for the product (maybe it only applies to a specific version, etc)
---?>
+-->
 <!-- TEMPLATE PRODUCT
   <Product model="" family="" os="">
     <Queries>
@@ -40,7 +40,7 @@
       </HardwareApp>
     </HardwareApps>
   </Product>
---?>
+-->
 
 <Products>
 
