@@ -5373,5 +5373,25 @@
   </Product>
   <!-- END LENOVO MASTER DATA AS OF 06.16.2017 -->
   <!-- BEGIN USER CONTRIBUTED DATA -->
+  <Product model="x250" family="tp" os="win10">
+    <Queries>
+      <Types>
+        <Type>20CM</Type>
+      </Types>
+      <Version>ThinkPad x250</Version>
+      <Smbios>N10E</Smbios>
+    </Queries>
+    <DriverPack id="sccm">http://support.lenovo.com/us/en/downloads/ds104692</DriverPack>
+    <DriverPack id="WinPE 10">http://support.lenovo.com/us/en/downloads/DS104737</DriverPack>
+    <BIOSUpdate>http://support.lenovo.com/us/en/downloads/DS102288</BIOSUpdate>
+    <HardwareApps>
+      <HardwareApp category="Hotkey">
+        <name>Lenovo Hotkey Features Integration</name>
+        <downloadURL>http://support.lenovo.com/us/en/downloads/DS120449</downloadURL>
+        <installCmd>Setup.exe /SP- /VERYSILENT /NORESTART /SUPPRESSMSGBOXES</installCmd>
+        <tip></tip>
+      </HardwareApp>
+    </HardwareApps>
+  </Product>  
   <!-- END USER CONTRIBUTED DATA -->
 </Products>
