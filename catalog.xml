@@ -5393,5 +5393,61 @@
       </HardwareApp>
     </HardwareApps>
   </Product>  
+  <Product model="T440p" family="tp" os="win10">
+    <Queries>
+      <Types>
+        <Type>20AQ</Type>
+        <Type>20AN</Type>
+      </Types>
+      <Version>ThinkPad T440p</Version>
+      <Smbios>GLET</Smbios>
+    </Queries>
+    <DriverPack id="sccm">http://support.lenovo.com/us/en/downloads/DS104738</DriverPack>
+    <DriverPack id="WinPE 10">no winpe</DriverPack>
+    <BIOSUpdate>http://support.lenovo.com/us/en/downloads/DS037575</BIOSUpdate>
+    <HardwareApps>
+      <HardwareApp category="Hotkey">
+        <name>Lenovo Hotkey Features Integration</name>
+        <downloadURL>https://support.lenovo.com/downloads/DS120449</downloadURL>
+        <installCmd>Setup.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART</installCmd>
+        <tip />
+      </HardwareApp>
+    </HardwareApps>
+  </Product>
+  <Product model="T450s" family="tp" os="win10">
+    <Queries>
+      <Types>
+        <Type>20BX</Type>
+      </Types>
+      <Version>ThinkPad T450s</Version>
+      <Smbios>JBET</Smbios>
+    </Queries>
+    <DriverPack id="sccm">http://support.lenovo.com/us/en/downloads/DS104584</DriverPack>
+    <DriverPack id="WinPE 10">http://support.lenovo.com/us/en/downloads/DS119264</DriverPack>
+    <BIOSUpdate></BIOSUpdate>
+    <HardwareApps>
+      <HardwareApp category="Hotkey">
+        <name>Lenovo Hotkey Features Integration</name>
+        <downloadURL>https://support.lenovo.com/downloads/DS120449</downloadURL>
+        <installCmd>Setup.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART</installCmd>
+        <tip />
+      </HardwareApp>
+    </HardwareApps>
+    </HardwareApps>
+  </Product>
+  <Product model="M900" family="tc" os="win10">
+    <Queries>
+      <Types>
+        <Type>10FM</Type>
+        <Type>10NE</Type>
+      </Types>
+      <Version>ThinkCentre M900</Version>
+      <Smbios>FWKT</Smbios>
+    </Queries>
+    <DriverPack id="sccm">http://support.lenovo.com/us/en/downloads/DS111956</DriverPack>
+    <DriverPack id="WinPE 10">no winpe</DriverPack>
+    <BIOSUpdate>http://support.lenovo.com/us/en/downloads/DS105487</BIOSUpdate>
+    <HardwareApps></HardwareApps>
+  </Product>
   <!-- END USER CONTRIBUTED DATA -->
 </Products>
