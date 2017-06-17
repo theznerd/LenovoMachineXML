@@ -5433,7 +5433,6 @@
         <tip />
       </HardwareApp>
     </HardwareApps>
-    </HardwareApps>
   </Product>
   <Product model="M900" family="tc" os="win10">
     <Queries>
