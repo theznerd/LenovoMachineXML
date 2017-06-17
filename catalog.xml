@@ -5449,5 +5449,31 @@
     <BIOSUpdate>http://support.lenovo.com/us/en/downloads/DS105487</BIOSUpdate>
     <HardwareApps></HardwareApps>
   </Product>
+  <Product model="M910q" family="tc" os="win764">
+    <Queries>
+      <Types>
+        <Type>10MV</Type>
+      </Types>
+      <Version>ThinkCentre M910q</Version>
+      <Smbios>M1AK</Smbios>
+    </Queries>
+    <DriverPack id="sccm">http://support.lenovo.com/downloads/DS120804</DriverPack>
+    <DriverPack id="WinPE 10">no winpe</DriverPack>
+    <BIOSUpdate>http://support.lenovo.com/downloads/DS120436</BIOSUpdate>
+    <HardwareApps>
+      <HardwareApp category="Bluetooth">
+        <name>Intel Bluetooth</name>
+        <downloadURL>http://support.lenovo.com/downloads/DS120941</downloadURL>
+        <installCmd>Setup.exe /qn /norestart</installCmd>
+        <tip></tip>
+      </HardwareApp>
+	  <HardwareApp category="Bluetooth">
+        <name>Qualcomm Atheros Bluetooth</name>
+        <downloadURL>http://support.lenovo.com/downloads/DS120941</downloadURL>
+        <installCmd>Setup.exe /C:"install.exe /s /v/qn /v/norestart" /t:"c:\temp"</installCmd>
+        <tip></tip>
+      </HardwareApp>
+    </HardwareApps>
+  </Product>
   <!-- END USER CONTRIBUTED DATA -->
 </Products>
